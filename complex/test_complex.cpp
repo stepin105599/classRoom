@@ -5,6 +5,7 @@ namespace{
     TEST(Point, empty_cont){
         Complex<int> c1;
         EXPECT_EQ(0,c1.getReal());
+        EXPECT_EQ(0,c1.getImag());
     }
     TEST(Point, copy_const){
         Complex<int> c1(25,533);

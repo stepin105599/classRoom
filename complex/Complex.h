@@ -2,7 +2,6 @@
 #define __COMPLEX_H
 
 template<typename T>
-
 class Complex
 {
 private:
@@ -23,17 +22,6 @@ public:
     int getImag();
 };
 
-// Complex::Complex(/* args */)
-// {
-// }
-
-// Complex::~Complex()
-// {
-// }
-// template<typename T>
-// T Complex<T>::Complex(){
-
-// }
 template<typename T>
 int Complex<T>::getReal()
 {

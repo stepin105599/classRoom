@@ -5,4 +5,4 @@ project: $(src)
 run: project
 	./$^
 clean:
-	rm *.out
+	rm $@
