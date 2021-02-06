@@ -1,6 +1,22 @@
+/**
+ * @file Complex.h
+ * @author Aman Kalaskar (amanajay.kalaskar@ltts.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-02-06
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #ifndef __COMPLEX_H
 #define __COMPLEX_H
 
+/**
+ * @brief Creating template of class Complex
+ * 
+ * @tparam T 
+ */
 template<typename T>
 class Complex
 {
